@@ -1,0 +1,12 @@
+{
+  "name": "load",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "artillery run load-test.yml"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
