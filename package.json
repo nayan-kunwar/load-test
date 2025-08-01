@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "dev": "artillery run load-test.yml"
+    "test": "artillery run load-test.yml"
   },
   "keywords": [],
   "author": "",

@@ -1,9 +1,9 @@
 config:
-  target: 'http://localhost:5000'
+  target: "http://localhost:5000"
   phases:
     - duration: 1000 # Run the test for 60 seconds.
-      arrivalRate: 100 # 10 requests per second
+      arrivalRate: 200 # 10 requests per second
 scenarios: # Defines what each virtual user will do.
   - flow:
       - get:
-          url: '/api/v1/blogs'  # Every virtual user will hit this endpoint once.
+          url: "/api/v1/blogs" # Every virtual user will hit this endpoint once.
